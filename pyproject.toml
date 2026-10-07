@@ -1,0 +1,11 @@
+[project]
+name = "diffusion-language-models-blog"
+version = "0.1.0"
+description = "Code for the blog post on diffusion language models"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "inceptionai>=0.1.4",
+    "python-dotenv>=1.0.0",
+    "typesafe-sdk>=0.7.2",
+]
