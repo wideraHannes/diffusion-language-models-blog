@@ -1,6 +1,6 @@
 # Diffusion language models: code for the blog post
 
-Code for [Diffusion Language Models: Beyond Left-to-Right Generation](#). Each file matches one section of the post.
+Code for [Diffusion Language Models: Beyond Left-to-Right Generation](https://www.codecentric.de/en/knowledge-hub/blog/diffusion-language-models-beyond-left-to-right-generation-en). Each file matches one section of the post.
 
 ## In short
 
@@ -47,11 +47,11 @@ The benchmark has its own [README](benchmark/README.md) with the commands and th
 Diffusion models in bold; the other rows are taken from the dataset card's zero-shot leaderboard. Full report with
 intervals and calibration: [`benchmark/results/report.md`](benchmark/results/report.md).
 
-| # | Model | Accuracy ↑ | KL ↓ | Brier ↓ | p50 latency |
-|---|---|---|---|---|---|
-| 1 | meraGPT Decider 1 | 0.768 | 0.096 | 0.052 | 526 ms |
-| 2 | Liquid AI d1 | 0.742 | 0.475 | 0.155 | 525 ms |
-| 3 | **celeris-1-decision** | 0.739 | 0.214 | 0.108 | 243 ms |
-| 4 | TypeSafe Jev 1.13.0 | 0.727 | 1.442 | 0.148 | 710 ms |
-| 5 | Featherless Simple Jev | 0.716 | 0.488 | 0.176 | – |
-| 6 | **mercury-decide** | 0.715 | 0.967 | 0.271 | 409 ms |
+| #   | Model                  | Accuracy ↑ | KL ↓  | Brier ↓ | p50 latency |
+| --- | ---------------------- | ---------- | ----- | ------- | ----------- |
+| 1   | meraGPT Decider 1      | 0.768      | 0.096 | 0.052   | 526 ms      |
+| 2   | Liquid AI d1           | 0.742      | 0.475 | 0.155   | 525 ms      |
+| 3   | **celeris-1-decision** | 0.739      | 0.214 | 0.108   | 243 ms      |
+| 4   | TypeSafe Jev 1.13.0    | 0.727      | 1.442 | 0.148   | 710 ms      |
+| 5   | Featherless Simple Jev | 0.716      | 0.488 | 0.176   | –           |
+| 6   | **mercury-decide**     | 0.715      | 0.967 | 0.271   | 409 ms      |
